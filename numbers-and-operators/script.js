@@ -1,19 +1,13 @@
-var age = 27e10;
+// crie duas expressoes que retornem NaN
+var expression = "teste"/2;
+var expression1 = "teste"-2;
+console.log(expression, expression1);
 
-console.log(age);
-console.log(typeof age);
+//somar a string 200 com numero 50 e retornar 50
+var sum = +"200" + 50;
+console.log(sum);
 
-var total = 10+5;
-var module = 52654254654165%3;//mod
-
-console.log(total);
-console.log(module);
-
-//string
-
-var sum = "10" + 5 //105 String(ele concatena)
-var subtraction = "100" -50// consegue subtrair
-console.log(typeof subtraction);//number e n string
-var multiplication = "100" * 2//200
-var division = "comprei 10"/2//vai dar erro pq tem caractere (NaN not a number)
-console.log(typeof division);
+//incremente o valor 5 e retorne seu valçor incrementado
+var x = 5;
+console.log(x++);
+console.log(x);

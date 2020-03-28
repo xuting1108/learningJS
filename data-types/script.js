@@ -1,17 +1,17 @@
-var name = "Filipe";
+// declare um variavel contendo uma string
+var sport = "Rugby";
+//declare uma variavel contendo um numero dentro de uma string
+var numberString = "variavel com numero " + 100;
+console.log(numberString);
+//declare uma var com sua idade
+//e outra com seu sobrenome e some os mesmos
 var age = 27;
-var team;
-var food = null;
-var symbol = Symbol();
-
-// como verificar o tipo da variavel
-console.log(typeof name);//string
-console.log(typeof age);//number
-console.log(typeof team);//undefined
-console.log(typeof food);//object
-console.log(typeof symbol);//symbol
-
-//concatenar strings
 var lastName = "Valadares";
-var completeName = name + lastName;
+var agePlusLastname = lastName + "," + age;   
+console.log(agePlusLastname); 
+// verificar o tipo da variavel do seu nome
+var name ="Filipe";
+console.log(typeof name);
+
+var completeName = `${name} ${lastName}`;
 console.log(completeName);
